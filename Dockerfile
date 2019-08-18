@@ -3,15 +3,10 @@ FROM electronuserland/builder
 COPY sources.list /etc/apt/sources.list
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
-      software-properties-common \
       curl \
       wget \
-      supervisor \
-      sudo \
       git \
       vim \
-      net-tools \
-      xz-utils \
       libgtk2.0-0 \
       libgconf-2-4 \
       libasound2 \
