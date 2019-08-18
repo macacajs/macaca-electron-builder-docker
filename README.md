@@ -1,5 +1,7 @@
 # Macaca Electron Docker Image
 
+---
+
 [![build status][travis-image]][travis-url]
 [![docker pull][docker-pull-image]][docker-url]
 [![docker pull][docker-size-image]][docker-url]
@@ -15,3 +17,4 @@
 ```bash
 $ docker build . -t="macacajs/macaca-electron-docker-ubuntu"
 ```
+

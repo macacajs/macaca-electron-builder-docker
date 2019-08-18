@@ -1,7 +1,7 @@
 #!/bin/sh
 
-XVFB=/usr/bin/Xvfb
-XVFBARGS="$DISPLAY -ac -screen 0 1024x768x16 +extension RANDR"
-/sbin/start-stop-daemon --start --quiet --background --exec $XVFB -- $XVFBARGS
+Xvfb -ac -screen scrn 1280x2000x24 :9.0 &
+
+export DISPLAY=:9.0
 
 exec "$@"
