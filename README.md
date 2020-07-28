@@ -15,6 +15,6 @@
 [docker-url]: https://hub.docker.com/r/macacajs/macaca-electron-builder-docker/
 
 ```bash
-$ docker build . -t="macaca-electron-builder-docker"
+$ docker build . -t="macacajs/macaca-electron-builder-docker"
 ```
 
